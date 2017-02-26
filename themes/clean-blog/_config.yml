@@ -1,0 +1,44 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Github:
+    url: https://github.com/kkotelczuk
+    icon: github
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: Rocks!
+
+# URL of the Home page image
+index_cover: /images/Background.jpg
+
+# Default post title
+default_post_title: Undefined Post title
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname: konrad-rocks
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon:
+
+# Social Accounts
+twitter_url:
+twitter_handle:
+facebook_url: https://www.facebook.com/kkotelczuk
+github_url: https://github.com/kkotelczuk
+gitlab_url:
+linkedin_url: https://www.linkedin.com/in/konrad-kotelczuk/
+mailto:
