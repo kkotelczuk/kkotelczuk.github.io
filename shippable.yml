@@ -1,0 +1,13 @@
+language: node_js                               
+
+node_js:                                      
+  - 6.9.4   
+
+build:                                                  
+
+  pre_ci:                               
+    - npm install -g hexo
+  ci:
+    - npm install
+    - hexo generate
+    - hexo deploy
