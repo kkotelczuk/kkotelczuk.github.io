@@ -10,3 +10,8 @@ build:
     - npm install
     - hexo generate
     - hexo deploy
+
+integrations:
+  key:
+    - integrationName: shippable_key
+      type: ssh-key
