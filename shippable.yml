@@ -5,9 +5,8 @@ node_js:
 
 build:                                                  
 
-  pre_ci:                               
-    - npm install -g hexo
   ci:
+    - npm install -g hexo
     - npm install
     - hexo generate
     - hexo deploy
