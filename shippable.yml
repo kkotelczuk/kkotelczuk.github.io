@@ -6,6 +6,8 @@ node_js:
 build:                                                  
 
   ci:
+    - git config --global user.email $GITHUB_EMAIL
+    - git config --global user.name $GITHUB_USERNAME
     - npm install -g hexo
     - npm install
     - hexo generate
