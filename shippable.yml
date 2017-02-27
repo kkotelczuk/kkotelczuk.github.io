@@ -1,10 +1,12 @@
 language: node_js                               
 
 node_js:                                      
-  - 6.9.4   
+  - 6.9.4 
+    
+env:
+  - secure: BfxKRR8mN2rU3+d8oemeXydGGkmH4aL+ROx3AzvUImwHNg8ljbWhp2iJ4AGqKxk6YHRC0KyPM57KiKG+Te4R6OiHaFXViTav5zDRqRoyVOjJ4DWT6A/Cvzd6tqiT6b38RNwZ2PSWe5KkbEiDILqb435hcsgIKtcLrDsEuyLQQIDAr0j9qN8gncSra6/tmjCOqFraI05QT8pxCFXx/8gRSPtCIho/Y2sQXoYTzAGkzCOgWDpM+nP7tq5vihyBccmtDJ6eFpz86W5mmPd+VBYwfZPDIPa+RSX4krc7rUTAlGKz8zPmPA/7CfLcFTV7/wn/12LfSNThc2WgShyqdvs3Lw==
 
 build:                                                  
-
   ci:
     - git config --global user.email $GITHUB_EMAIL
     - git config --global user.name $GITHUB_USERNAME
