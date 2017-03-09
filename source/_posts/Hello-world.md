@@ -2,7 +2,7 @@
 title: Hello-world
 date: 2017-02-26 18:16:40
 categories: Get_Noticed!
-tags: [DSP1027, IT, firstPost, citests, next]
+tags: [DSP1027, IT, firstPost]
 cover: ./begin-journey.png
 ---
 ## Welcome!
