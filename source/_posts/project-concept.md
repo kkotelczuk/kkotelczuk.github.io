@@ -25,7 +25,7 @@ The main challenge in this game is image processing. I decided to use JavaScript
 
 ## Technology
 
-As I said above I want to use JS as the main language in this project. Fronted will be based on [ReactJS](https://github.com/reactjs) with [MobX](https://mobx.js.org/) architecture. I used this set of tech in my daily work and it works fine for me. I'm open for others frameworks, so changes are possible. 
+As I said above I want to use JS as the main language in this project. Frontend will be based on [ReactJS](https://github.com/reactjs) with [MobX](https://mobx.js.org/) architecture. I used this set of tech in my daily work and it works fine for me. I'm open for others frameworks, so changes are possible. 
 
 As the backend, I want to use a [BaaS](https://www.techopedia.com/definition/29428/backend-as-a-service-baas). Today I'm targeting in [Syncano](https://syncano.io), which in my opinion is very good for such thing, but currently it's core libraries are in beta, so It can be a bit difficult. Syncano provides code box in which JS code runs really fast. There is also mechanism like triggers, schedules, real-time notifications, also mobile and hosting. In Syncano I can store data, processing images in the cloud, so I hope the game will work really fast. 
 
