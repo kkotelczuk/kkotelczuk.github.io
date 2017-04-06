@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="GitHub pages with CIIn my first technical blog post, I want to show how I have setup CI for GitHub pages with Shippable. There is a lot of workarounds">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Konrad Kotelczuk">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="GitHub pages with CI"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="IT rocks!"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>GitHub pages with CI - IT rocks!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+	
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Rocks!</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/kkotelczuk">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('./cover-gh-pages-ci.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>GitHub pages with CI</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2017-03-09
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/DSP1027/">#DSP1027</a> <a href="/tags/IT/">#IT</a> <a href="/tags/GH-pages/">#GH-pages</a> <a href="/tags/CI/">#CI</a> <a href="/tags/Shippable/">#Shippable</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categories/Get-Noticed/">Get_Noticed!</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="GitHub-pages-with-CI"><a href="#GitHub-pages-with-CI" class="headerlink" title="GitHub pages with CI"></a>GitHub pages with CI</h1><p>In my first technical blog post, I want to show how I have setup <code>CI</code> for <code>GitHub pages</code> with <code>Shippable</code>. There is a lot of workarounds in this solution and I think it can be done simpler or better, and maybe someday I will return to this config and figure it out how to improve it, but for now this works for me.</p>
+<h2 id="What-is-CI"><a href="#What-is-CI" class="headerlink" title="What is CI"></a>What is CI</h2><p>Continuous Integration simply <code>automates your workflow</code>. It manages your builds, tests, and deploys. This piece of software resolving a lot of <em>integration hell</em> problems. Mostly it works in cloud server by setup clean machine for every build. Then it runs set of commands inside it. Every workflow can be personalized by YAML file and overriding default commands. There are a lot of possible options to get desired results. In my daily work, we use Circle CI which is integrated with our GitHub account. For purposes of this competition, I want to learn something new, so I decided to use another tool. Somehow I missed out that <code>Travis CI is free for Open Source</code> and I decided to use Shippable for setup this CI for this blog. </p>
+<h2 id="Using-Shippable"><a href="#Using-Shippable" class="headerlink" title="Using Shippable"></a>Using Shippable</h2><p>Shippable is dedicated CI for working with docker machines, and have good integration with GitHub. Its’ free plan is fine for me, so I decided to use it. I have prepared blog on the <code>master branch</code> and I added <code>source branch</code> to my repo. On the <code>source</code>, I want to keep whole data from <code>hexo.js</code>. I wanted to use it also for <code>ReDrawIt game</code>, but after configuration, which will be described below I will try to use Travis CI instead.</p>
+<h4 id="How-to-begin"><a href="#How-to-begin" class="headerlink" title="How to begin"></a>How to begin</h4><p>For beginning just log in via Github. Next, select the project which should be enabled. Projects are hidden under <code>hamburger icon in the top left corner</code>. Select your account and then enable project. After enabling, it will <code>show up on the dashboard</code>. Now It’s time, to begin CI configuration.</p>
+<h4 id="Configure-repository"><a href="#Configure-repository" class="headerlink" title="Configure repository"></a>Configure repository</h4><p>The first thing you have to do is add new YAML file, name it <code>shippable.yml</code> and store in project root directory. YAML structure is really good described in <a href="http://docs.shippable.com/ci/shippableyml/" target="_blank" rel="external">docs</a>. At the beginning, you have to specify language version. In my case, it is javascript and node in version 6.9.4. Then you need to prepare build sequence. It is important to remember that <strong>all that happens before the build is <code>not</code> available inside build sequence</strong>. Here is an example of my build sequence:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">build:</span>                                                  </span><br><span class="line"><span class="attr">  ci:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">git</span> <span class="string">config</span> <span class="bullet">--global</span> <span class="string">user.email</span> <span class="string">$GITHUB_EMAIL</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">git</span> <span class="string">config</span> <span class="bullet">--global</span> <span class="string">user.name</span> <span class="string">$GITHUB_USERNAME</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">npm</span> <span class="string">install</span> <span class="bullet">-g</span> <span class="string">hexo</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">hexo</span> <span class="string">generate</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">hexo</span> <span class="string">deploy</span></span><br></pre></td></tr></table></figure></p>
+<p>As you can see first I have to setup git, using environment variables, and then install hexo.js. After installing all necessary dependencies and generate static pages it is time to run <code>hexo deploy</code>. This command push changed files to master branch via ssh. Here begins difficulty in this solution. How to connect to GitHub via ssh from container somewhere in Shippable. </p>
+<h4 id="SSH-Integration"><a href="#SSH-Integration" class="headerlink" title="SSH Integration"></a>SSH Integration</h4><p>To make a push from docker container you will need an <code>ssh key</code> that will authorize <code>this container</code>. To do this you have to add <code>shh integration in Shippable</code>. Go to your Shippable account setting and select <code>integrations</code>. Select <code>Add Integrations</code> and find <code>ssh key</code>. In next step you will have to select <code>subscription</code> which is your <code>account on GitHub</code>, the key will be generated automatically. I hope you know how to add ssh key to Github if not there is a really good <a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/" target="_blank" rel="external">tutorial</a>. Now go back to your YAML file. At the end of the file you have to add <code>Integrations</code> section:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">integrations:</span></span><br><span class="line"><span class="attr">  key:</span></span><br><span class="line"><span class="attr">    - integrationName:</span> <span class="string">shippable_key</span></span><br><span class="line"><span class="attr">      type:</span> <span class="string">ssh-key</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Project-configuration-in-Shippable"><a href="#Project-configuration-in-Shippable" class="headerlink" title="Project configuration in Shippable"></a>Project configuration in Shippable</h4><p>It’s almost done. Now go to your Shippable account, select your project and go to its settings. In section <code>Runs Config</code> select which branch should be used. I have a disabled <code>master</code> from a building because there will be done <code>deploy</code> from <code>source branch</code>. Also, you should setup <code>account to process webhooks</code> if not selected.<br>Last thing here is to encrypt your <code>environmental variables</code>. Go to <code>encrypt section</code> type your values as described in the example and add generated string to your YAML:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">env:</span></span><br><span class="line"><span class="attr">  - secure:</span> <span class="string">BfxKRR8mN2rU3+d8oemeXydGGkmH4aL+ROx3AzvUImwHNg8ljbWhp2iJ4AGqKxk6YHRC0KyPM57</span></span><br></pre></td></tr></table></figure></p>
+<p>After that, you will have access to environmental variables by <code>$VAR_NAME</code> </p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Now you can test your CI, in your Shippable dashboard you can check out the progress of your build and see errors if any occur. After all steps above you should be able to make the push to your repo from docker container on Shippable.<br>I hope it will help someday, some young developer who decide to use Shippable this way. Anyway, I suggest reading <a href="http://docs.shippable.com/" target="_blank" rel="external">Sippable docs</a> which are not so bad as looks at first.<br>It’s all. Next time I probably decide to use another tool for CI, but I will not give up on Shippable. It has potential, and I’m curious how works <code>pipelines</code> with all integrations offered by Shippable. </p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+                        <li>
+                            <a href="https://www.facebook.com/kkotelczuk" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/kkotelczuk" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/konrad-kotelczuk/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2017 Konrad Kotelczuk<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'konrad-rocks';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>

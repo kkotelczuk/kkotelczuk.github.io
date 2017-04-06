@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>IT rocks!</title>
+  <subtitle>Completely randm stuff about IT</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://konrad.rocks/"/>
+  <updated>2017-04-06T13:44:09.099Z</updated>
+  <id>http://konrad.rocks/</id>
+  
+  <author>
+    <name>Konrad Kotelczuk</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Coming Back</title>
+    <link href="http://konrad.rocks/Get-Noticed/coming-back/"/>
+    <id>http://konrad.rocks/Get-Noticed/coming-back/</id>
+    <published>2017-04-06T09:42:53.000Z</published>
+    <updated>2017-04-06T13:44:09.099Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What-happends"><a href="#What-happends" class="headerlink" title="What happends"></a>What happends</h2><p>It has been a while since the last blog post. All because of that I quit my job. Last weeks I spend on looking some interesting work. It’s kind of difficult tasks, because there is a lot of work in <code>PHP</code>, mostly <code>WordPress</code> or <code>e-commerce</code>. But I want to work as <code>Front End</code> developer in one of newest frameworks and <code>Node.js</code> of course. </p>
+<h3 id="This-post-will-not-be-about-interviews-its-self-but-about-my-observations-about-it"><a href="#This-post-will-not-be-about-interviews-its-self-but-about-my-observations-about-it" class="headerlink" title="This post will not be about interviews its self, but about my observations about it."></a>This post will not be about interviews its self, but about my observations about it.</h3><p>The first thing worth to mention is that you should have wide knowledge about programming at all, not only about your preferred language. I had some questions about algorithms time complexity.<br><strong><code>It&#39;s good to know how it works and how to calculate time and space complexity.</code></strong><br>There was no question about complexity of specific function, but about the whole solution, and if complexity was too big, how you can improve it. Such questions just check your way of thinking and ability to solving problems.<br>When going to interview its good practice to be alway prepared for some tricky task to solve. For example, in JS you should be able to say what happened if <strong><code>Timeout will be set to 0</code></strong>. Maybe not so difficult, but this solution is not used very often and may be bit problematic.<br>On interviews, there is always question from those classic which can be found on the Internet for example in <a href="https://frontendmasters.com/books/front-end-handbook/2017/practice/interview-q.html" target="_blank" rel="external">JS Handbook</a><br>Always but always you have to be prepared for a question like <em><code>Why you want to work with us?</code></em> or <em><code>What do you know about us?</code></em><br>I have to admit that once I wasn’t prepared. I lost my chance to work with this company, because of my ignorance so, remember to always check company website, Facebook, LinkedIn and their product or products if there is such an opportunity. </p>
+<p>And for now, my most important observation is that <strong>finding a good, well-paid job needs a time</strong>. There is a lot of work in web development, but not a lot of interesting projects or working in new technologies. So be prepared for a long time searching.<br>That’s all, next post will be about ReDrawIt update. </p>
+<h2 id="Stay-cool"><a href="#Stay-cool" class="headerlink" title="Stay cool!"></a>Stay cool!</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;What-happends&quot;&gt;&lt;a href=&quot;#What-happends&quot; class=&quot;headerlink&quot; title=&quot;What happends&quot;&gt;&lt;/a&gt;What happends&lt;/h2&gt;&lt;p&gt;It has been a while since 
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP2017" scheme="http://konrad.rocks/tags/DSP2017/"/>
+    
+      <category term="job" scheme="http://konrad.rocks/tags/job/"/>
+    
+      <category term="job-intrewiev" scheme="http://konrad.rocks/tags/job-intrewiev/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Quick Update</title>
+    <link href="http://konrad.rocks/Get-Noticed/quick-update/"/>
+    <id>http://konrad.rocks/Get-Noticed/quick-update/</id>
+    <published>2017-03-19T20:49:57.000Z</published>
+    <updated>2017-04-06T13:44:09.107Z</updated>
+    
+    <content type="html"><![CDATA[<p>#Quick Update</p>
+<p>Huh, it was really hard week. I have done some research about npm, so now I can say that I understand it’s quite well. During this week I didn’t focus on my project. Unfortunately I have time only tonight. So here is what I’m going to do. </p>
+<p>I decided to build this whole project from scratch. Without any boilerplates or any old projects. Just begin with install react and mobX and see what next. </p>
+<p>The first thing I want to do is simple tic tac toe games, just like in react tutorial. I want to build it just for test if my configuration works fine. After that I will begin writing project from auth component.</p>
+<p>That’s the plan. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#Quick Update&lt;/p&gt;
+&lt;p&gt;Huh, it was really hard week. I have done some research about npm, so now I can say that I understand it’s quite wel
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP1027" scheme="http://konrad.rocks/tags/DSP1027/"/>
+    
+      <category term="IT" scheme="http://konrad.rocks/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ReDrawIT First Mockups</title>
+    <link href="http://konrad.rocks/Get-Noticed/project-mockups/"/>
+    <id>http://konrad.rocks/Get-Noticed/project-mockups/</id>
+    <published>2017-03-15T00:25:19.000Z</published>
+    <updated>2017-04-06T13:44:09.107Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Project-Mockups"><a href="#Project-Mockups" class="headerlink" title="Project Mockups"></a>Project Mockups</h1><p>Yesterday I wanted weak, but how if I really don’t now how my game should look like. I decided to prepare some mockups. It’s just drafting. I think colors, graphics, fonts may change. </p>
+<h2 id="Mockup-tool"><a href="#Mockup-tool" class="headerlink" title="Mockup tool"></a>Mockup tool</h2><p>One of my terrible problems is using any graphic tool. I can use paint, for editing images but when it comes to Photoshop or Illustrator I’m just weak. I’m also weka at designing but hey! It’s my idea so I can try, right? This time I hade used tool that I know quite well - Figma. Figma is simple interface design tool which is really easy for beginners. AND it’s free right now (forever free for students). With some ideas and the right tool, I had to begin my work. </p>
+<h2 id="ReDrawIt-first-mockups"><a href="#ReDrawIt-first-mockups" class="headerlink" title="ReDrawIt first mockups"></a>ReDrawIt first mockups</h2><p>Fist screen is, of course, simple as it can be. Just login page without any other functions. In concept, there is no signup option. Just pure fun. </p>
+<p><img src="./FirstScreen@2x.png" alt="First Screen"></p>
+<p>After select player name (or use default) Player begins drawing. I think there could be modal with some basic info and some kind of countdown. At this moment player can’t use any other tool than a 4px pencil with various colors. Whiteboard would be something like 200px on 200px or more but it has to be square.</p>
+<p><img src="./GameScreen@2x.png" alt="Game Screen"></p>
+<p>Next section shows a picture to redraw. The previously drawn image is sent to an author of that picture which player have to redraw. Then they got same time to redraw pictures. </p>
+<p><img src="./GameScreen2@2x.png" alt="Game Screen 2"></p>
+<p>After that the system automatically checks who wins.</p>
+<p><img src="./ScoreScreen@2x.png" alt="Score Screen"></p>
+<p>I know that is potentially insecure and there is a lot of options to hack it, but don’t forget this is the only idea, first concept.<br>If you have any suggestions I will be glad to hear it. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Project-Mockups&quot;&gt;&lt;a href=&quot;#Project-Mockups&quot; class=&quot;headerlink&quot; title=&quot;Project Mockups&quot;&gt;&lt;/a&gt;Project Mockups&lt;/h1&gt;&lt;p&gt;Yesterday I wanted
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP1027" scheme="http://konrad.rocks/tags/DSP1027/"/>
+    
+      <category term="IT" scheme="http://konrad.rocks/tags/IT/"/>
+    
+      <category term="figma" scheme="http://konrad.rocks/tags/figma/"/>
+    
+      <category term="mockups" scheme="http://konrad.rocks/tags/mockups/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Project Concept</title>
+    <link href="http://konrad.rocks/Get-Noticed/project-concept/"/>
+    <id>http://konrad.rocks/Get-Noticed/project-concept/</id>
+    <published>2017-03-11T23:12:25.000Z</published>
+    <updated>2017-04-06T13:44:09.103Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ReDrawIt-Concept"><a href="#ReDrawIt-Concept" class="headerlink" title="ReDrawIt Concept"></a>ReDrawIt Concept</h1><p>This time I want to describe why I decided to start this project, also I want to present some tech spec.</p>
+<h2 id="What-is-ReDrawIt"><a href="#What-is-ReDrawIt" class="headerlink" title="What is ReDrawIt?"></a>What is ReDrawIt?</h2><p>I wanted to make a pretty simple online game. The main concept of it is redrawing. The first player draws something on the whiteboard in some time, then another player has to redraw it in the same time. At the backend runs, image processing and the player gets the score based on the precision of his draw and left time. Then roles change and second player draw something and the first one has to redraw it. Simple right? </p>
+<p>The main challenge in this game is image processing. I decided to use JavaScript, which, I hope, have a lot of good image libraries. <strong>I didn’t make any research.</strong> It was an impulse. </p>
+<h2 id="Technology"><a href="#Technology" class="headerlink" title="Technology"></a>Technology</h2><p>As I said above I want to use JS as the main language in this project. Frontend will be based on <a href="https://github.com/reactjs" target="_blank" rel="external">ReactJS</a> with <a href="https://mobx.js.org/" target="_blank" rel="external">MobX</a> architecture. I used this set of tech in my daily work and it works fine for me. I’m open for others frameworks, so changes are possible. </p>
+<p>As the backend, I want to use a <a href="https://www.techopedia.com/definition/29428/backend-as-a-service-baas" target="_blank" rel="external">BaaS</a>. Today I’m targeting in <a href="https://syncano.io" target="_blank" rel="external">Syncano</a>, which in my opinion is very good for such thing, but currently it’s core libraries are in beta, so It can be a bit difficult. Syncano provides code box in which JS code runs really fast. There is also mechanism like triggers, schedules, real-time notifications, also mobile and hosting. In Syncano I can store data, processing images in the cloud, so I hope the game will work really fast. </p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>After wrote the main concept here it’s time to get to work. The first step is setup environment for ReactJS and Syncano, then CI, <a href="https://travis-ci.org/" target="_blank" rel="external">Travis</a> this time, and then maybe test environment and coverage reports. Time shows what will appears </p>
+<p>Have a nice weekend. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;ReDrawIt-Concept&quot;&gt;&lt;a href=&quot;#ReDrawIt-Concept&quot; class=&quot;headerlink&quot; title=&quot;ReDrawIt Concept&quot;&gt;&lt;/a&gt;ReDrawIt Concept&lt;/h1&gt;&lt;p&gt;This time I wa
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP1027" scheme="http://konrad.rocks/tags/DSP1027/"/>
+    
+      <category term="IT" scheme="http://konrad.rocks/tags/IT/"/>
+    
+      <category term="games" scheme="http://konrad.rocks/tags/games/"/>
+    
+      <category term="JS" scheme="http://konrad.rocks/tags/JS/"/>
+    
+      <category term="React" scheme="http://konrad.rocks/tags/React/"/>
+    
+      <category term="Syncano" scheme="http://konrad.rocks/tags/Syncano/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub pages with CI</title>
+    <link href="http://konrad.rocks/Get-Noticed/gh-pages-ci/"/>
+    <id>http://konrad.rocks/Get-Noticed/gh-pages-ci/</id>
+    <published>2017-03-09T18:26:39.000Z</published>
+    <updated>2017-04-06T13:44:09.099Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-pages-with-CI"><a href="#GitHub-pages-with-CI" class="headerlink" title="GitHub pages with CI"></a>GitHub pages with CI</h1><p>In my first technical blog post, I want to show how I have setup <code>CI</code> for <code>GitHub pages</code> with <code>Shippable</code>. There is a lot of workarounds in this solution and I think it can be done simpler or better, and maybe someday I will return to this config and figure it out how to improve it, but for now this works for me.</p>
+<h2 id="What-is-CI"><a href="#What-is-CI" class="headerlink" title="What is CI"></a>What is CI</h2><p>Continuous Integration simply <code>automates your workflow</code>. It manages your builds, tests, and deploys. This piece of software resolving a lot of <em>integration hell</em> problems. Mostly it works in cloud server by setup clean machine for every build. Then it runs set of commands inside it. Every workflow can be personalized by YAML file and overriding default commands. There are a lot of possible options to get desired results. In my daily work, we use Circle CI which is integrated with our GitHub account. For purposes of this competition, I want to learn something new, so I decided to use another tool. Somehow I missed out that <code>Travis CI is free for Open Source</code> and I decided to use Shippable for setup this CI for this blog. </p>
+<h2 id="Using-Shippable"><a href="#Using-Shippable" class="headerlink" title="Using Shippable"></a>Using Shippable</h2><p>Shippable is dedicated CI for working with docker machines, and have good integration with GitHub. Its’ free plan is fine for me, so I decided to use it. I have prepared blog on the <code>master branch</code> and I added <code>source branch</code> to my repo. On the <code>source</code>, I want to keep whole data from <code>hexo.js</code>. I wanted to use it also for <code>ReDrawIt game</code>, but after configuration, which will be described below I will try to use Travis CI instead.</p>
+<h4 id="How-to-begin"><a href="#How-to-begin" class="headerlink" title="How to begin"></a>How to begin</h4><p>For beginning just log in via Github. Next, select the project which should be enabled. Projects are hidden under <code>hamburger icon in the top left corner</code>. Select your account and then enable project. After enabling, it will <code>show up on the dashboard</code>. Now It’s time, to begin CI configuration.</p>
+<h4 id="Configure-repository"><a href="#Configure-repository" class="headerlink" title="Configure repository"></a>Configure repository</h4><p>The first thing you have to do is add new YAML file, name it <code>shippable.yml</code> and store in project root directory. YAML structure is really good described in <a href="http://docs.shippable.com/ci/shippableyml/" target="_blank" rel="external">docs</a>. At the beginning, you have to specify language version. In my case, it is javascript and node in version 6.9.4. Then you need to prepare build sequence. It is important to remember that <strong>all that happens before the build is <code>not</code> available inside build sequence</strong>. Here is an example of my build sequence:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">build:</span>                                                  </span><br><span class="line"><span class="attr">  ci:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">git</span> <span class="string">config</span> <span class="bullet">--global</span> <span class="string">user.email</span> <span class="string">$GITHUB_EMAIL</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">git</span> <span class="string">config</span> <span class="bullet">--global</span> <span class="string">user.name</span> <span class="string">$GITHUB_USERNAME</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">npm</span> <span class="string">install</span> <span class="bullet">-g</span> <span class="string">hexo</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">hexo</span> <span class="string">generate</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">hexo</span> <span class="string">deploy</span></span><br></pre></td></tr></table></figure></p>
+<p>As you can see first I have to setup git, using environment variables, and then install hexo.js. After installing all necessary dependencies and generate static pages it is time to run <code>hexo deploy</code>. This command push changed files to master branch via ssh. Here begins difficulty in this solution. How to connect to GitHub via ssh from container somewhere in Shippable. </p>
+<h4 id="SSH-Integration"><a href="#SSH-Integration" class="headerlink" title="SSH Integration"></a>SSH Integration</h4><p>To make a push from docker container you will need an <code>ssh key</code> that will authorize <code>this container</code>. To do this you have to add <code>shh integration in Shippable</code>. Go to your Shippable account setting and select <code>integrations</code>. Select <code>Add Integrations</code> and find <code>ssh key</code>. In next step you will have to select <code>subscription</code> which is your <code>account on GitHub</code>, the key will be generated automatically. I hope you know how to add ssh key to Github if not there is a really good <a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/" target="_blank" rel="external">tutorial</a>. Now go back to your YAML file. At the end of the file you have to add <code>Integrations</code> section:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">integrations:</span></span><br><span class="line"><span class="attr">  key:</span></span><br><span class="line"><span class="attr">    - integrationName:</span> <span class="string">shippable_key</span></span><br><span class="line"><span class="attr">      type:</span> <span class="string">ssh-key</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Project-configuration-in-Shippable"><a href="#Project-configuration-in-Shippable" class="headerlink" title="Project configuration in Shippable"></a>Project configuration in Shippable</h4><p>It’s almost done. Now go to your Shippable account, select your project and go to its settings. In section <code>Runs Config</code> select which branch should be used. I have a disabled <code>master</code> from a building because there will be done <code>deploy</code> from <code>source branch</code>. Also, you should setup <code>account to process webhooks</code> if not selected.<br>Last thing here is to encrypt your <code>environmental variables</code>. Go to <code>encrypt section</code> type your values as described in the example and add generated string to your YAML:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">env:</span></span><br><span class="line"><span class="attr">  - secure:</span> <span class="string">BfxKRR8mN2rU3+d8oemeXydGGkmH4aL+ROx3AzvUImwHNg8ljbWhp2iJ4AGqKxk6YHRC0KyPM57</span></span><br></pre></td></tr></table></figure></p>
+<p>After that, you will have access to environmental variables by <code>$VAR_NAME</code> </p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Now you can test your CI, in your Shippable dashboard you can check out the progress of your build and see errors if any occur. After all steps above you should be able to make the push to your repo from docker container on Shippable.<br>I hope it will help someday, some young developer who decide to use Shippable this way. Anyway, I suggest reading <a href="http://docs.shippable.com/" target="_blank" rel="external">Sippable docs</a> which are not so bad as looks at first.<br>It’s all. Next time I probably decide to use another tool for CI, but I will not give up on Shippable. It has potential, and I’m curious how works <code>pipelines</code> with all integrations offered by Shippable. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;GitHub-pages-with-CI&quot;&gt;&lt;a href=&quot;#GitHub-pages-with-CI&quot; class=&quot;headerlink&quot; title=&quot;GitHub pages with CI&quot;&gt;&lt;/a&gt;GitHub pages with CI&lt;/h1&gt;&lt;
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP1027" scheme="http://konrad.rocks/tags/DSP1027/"/>
+    
+      <category term="IT" scheme="http://konrad.rocks/tags/IT/"/>
+    
+      <category term="GH-pages" scheme="http://konrad.rocks/tags/GH-pages/"/>
+    
+      <category term="CI" scheme="http://konrad.rocks/tags/CI/"/>
+    
+      <category term="Shippable" scheme="http://konrad.rocks/tags/Shippable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello-world</title>
+    <link href="http://konrad.rocks/Get-Noticed/Hello-world/"/>
+    <id>http://konrad.rocks/Get-Noticed/Hello-world/</id>
+    <published>2017-02-26T17:16:40.000Z</published>
+    <updated>2017-04-06T13:44:09.099Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Welcome"><a href="#Welcome" class="headerlink" title="Welcome!"></a>Welcome!</h2><p>This is my very first personal blog post. I want to take part in a competition <strong>Get Noticed!</strong> 2017 edition. </p>
+<p>My name is Konrad and I’m working as Front End developer in a small company named <a href="http://eyedea.io/" target="_blank" rel="external">Eyedea</a>. I’m also member of community named <a href="https://hacklag.org/" target="_blank" rel="external">Hacklag</a>, which makes great things for IT people in my town. I graduated <a href="http://pb.edu.pl/" target="_blank" rel="external">Technical University in Białystok</a>. It was the crazy time and I miss it so I need some challenges. </p>
+<p><strong>The first challenge</strong> that I take is writing this blog in English. I want to learn how to write as good as it is possible, so please check me and correct without mercy ;)</p>
+<p><strong>The second challenge</strong>, I think even bigger is begun my own open source project. I have a lot of worries about it, but I have to face it!</p>
+<p>So let’s begin my journey. Next time I will describe my project. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Welcome&quot;&gt;&lt;a href=&quot;#Welcome&quot; class=&quot;headerlink&quot; title=&quot;Welcome!&quot;&gt;&lt;/a&gt;Welcome!&lt;/h2&gt;&lt;p&gt;This is my very first personal blog post. I want
+    
+    </summary>
+    
+      <category term="Get_Noticed!" scheme="http://konrad.rocks/categories/Get-Noticed/"/>
+    
+    
+      <category term="DSP1027" scheme="http://konrad.rocks/tags/DSP1027/"/>
+    
+      <category term="IT" scheme="http://konrad.rocks/tags/IT/"/>
+    
+      <category term="firstPost" scheme="http://konrad.rocks/tags/firstPost/"/>
+    
+  </entry>
+  
+</feed>
