@@ -10,7 +10,7 @@ build:
   ci:
     - git config --global user.email $GITHUB_EMAIL
     - git config --global user.name $GITHUB_USERNAME
-    - npm install -g hexo
+    - npm install -g hexo@3.2.2
     - npm install
     - hexo generate
     - hexo deploy
